@@ -90,7 +90,7 @@ DATABASES = {
 DATABASES = {
        'default': dj_database_url.config(
            # Feel free to alter this value to suit your needs.
-           default='postgres://talcherdb_user:5xdwfV5hCXZXrcQ9hge9Z33KObcgAMZg@dpg-cf5bh1pmbjsobako3r10-a.singapore-postgres.render.com/talcherdb',
+           default='postgres://talcherdeploy_user:zsPDV9xH7RLJgcXAt4CSPulNpfuYamdb@dpg-cf5s1tda499d72st39dg-a.singapore-postgres.render.com/talcherdeploy',
            conn_max_age=600)
        
    }
